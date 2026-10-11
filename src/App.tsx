@@ -1,0 +1,5 @@
+import {business as raw,Call,HeroImage,Quote,Reveal,ContactMap,Footer} from './components';
+import full from './business.json';
+const b={...raw,tagline:full.tagline};
+function ServiceLines(){return <ul className="service-lines">{full.services.map(s=><li key={s}>{s}</li>)}</ul>}
+export default function App(){return <div className="wrap"><header><a className="brand" href="#top">{b.name}</a><div className="header-right"><nav aria-label="Навигация"><a href="#reviews">Отзывы</a><a href="#contact">Адрес и часы</a></nav><Call>Позвонить</Call></div></header><main id="top"><section className="hero hero-omate"><HeroImage/><div className="hero-copy"><h1>Омате</h1><p>{b.tagline}</p><Call>Позвонить в кофейню</Call></div></section><div id="reviews"><section className="omate-story"><h2>В городе.<br/>В своём ритме.</h2><p>Гости отмечают уют и возвращаются на кофе. Здесь можно начать утро или задержаться за разговором.</p></section><Reveal><Quote/></Reveal><section className="omate-list"><ServiceLines/><p>Актуальное меню и часы уточняйте по телефону или в публичных контактах кофейни.</p></section></div><ContactMap/></main><Footer/></div>}

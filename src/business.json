@@ -1,0 +1,39 @@
+{
+  "slug": "krd-omate",
+  "name": "Омате",
+  "city": "Краснодар",
+  "category": "Кофейня",
+  "address": "Краснодар, Красная ул., 85",
+  "phone": "+7 (918) 140-17-72",
+  "hours": "Пн 08:00–22:00; Вт 08:00–22:00; Ср 08:00–22:00; Чт 08:00–22:00; Пт 08:00–22:00; Сб 10:00–22:00; Вс 10:00–22:00",
+  "map": "https://yandex.ru/maps/org/omate/7934874355/",
+  "orgId": "7934874355",
+  "rating": 4.9,
+  "ratingCount": 404,
+  "reviewCount": 206,
+  "reviews": [
+    {
+      "text": "Очень люблю заглянуть и остаться надолго, потому что здесь невероятно уютно.",
+      "name": "Ксения Балдина",
+      "rating": 5,
+      "url": "https://yandex.ru/maps/org/omate/7934874355/reviews/?reviewId=ZjQV9owsi9jPdQgcDLWkdwRWdnNwo1DG7",
+      "date": "2026-06-19T11:54:42Z"
+    }
+  ],
+  "socials": [
+    {
+      "label": "telegram",
+      "url": "https://t.me/+79181401772"
+    }
+  ],
+  "headline": "Омате",
+  "tagline": "Кофе и завтраки в тихом дворе на Красной.",
+  "services": [
+    "Кофейня",
+    "Завтраки",
+    "Кофе с собой"
+  ],
+  "allPhones": [
+    "+7 (918) 140-17-72"
+  ]
+}
